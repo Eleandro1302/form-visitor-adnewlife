@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo à AD NewLife</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Bem-vindo à AD NewLife <img src="https://lh3.googleusercontent.com/pw/AP1GczOYIrq_g03q5b9zlw2P97zRjzvnZWfFl5SakvRMXcmWWvn5xU0mVidhbDUzCMDwQCMVGBYtyh-hjjwjxHiIhxMFdqS0h4EBNhQZGVVcDq-IaWibagZHfbKwil3gDxYHuMUE83HK_S9N1D9xDzCXLb2zwQ=w684-h684-s-no-gm" alt="Logo"></h1>
+        <form id="cadastroForm">
+            <label for="nome">Nome (obrigatório):</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="whats">WhatsApp:</label>
+            <input type="text" id="whats" name="whats">
+
+            <label for="como">Como ficou sabendo da nossa igreja?</label>
+            <select id="como" name="como" required>
+                <option value="google">Google</option>
+                <option value="rede_social">Rede Social</option>
+                <option value="amigo">Amigo</option>
+            </select>
+
+            <div id="amigoNomeContainer" style="display: none;">
+                <label for="amigoNome">Nome do amigo:</label>
+                <input type="text" id="amigoNome" name="amigoNome">
+            </div>
+
+            <label for="oracao">Pedido de Oração:</label>
+            <textarea id="oracao" name="oracao" rows="4"></textarea>
+
+            <label>
+                <input type="checkbox" id="termos" name="termos" required>
+                Aceito os termos
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="success-message">É muito bom ter você conosco.</p>
+        <div class="instagram-icon" onclick="redirectToInstagram()"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
