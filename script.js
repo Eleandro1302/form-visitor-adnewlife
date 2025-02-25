@@ -34,7 +34,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
             .then(response => response.json())
             .then(data => {
                 if (data.ok) {
-                    alert('Dados enviados com sucesso!');
+                    alert('Bem-vindo à família NewLife!');
                     document.querySelector('.success-message').style.display = 'block';
                     document.querySelector('.instagram-icon').style.display = 'block';
                     window.location.href = 'https://www.instagram.com/ad_newlifechurch_watford?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
