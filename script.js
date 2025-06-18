@@ -36,7 +36,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
                     alert('Bem-vindo à família NewLife!');
                     document.querySelector('.success-message').style.display = 'block';
                     document.querySelector('.instagram-icon').style.display = 'block';
-                    window.location.href = 'https://www.instagram.com/ad_newlifechurch?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+                    window.location.href = 'https://www.instagram.com/ad_newlifechurch?igsh=MW8wc3Y2NXZlcmVucg==';
                 } else {
                     alert('Erro ao enviar dados.');
                 }
