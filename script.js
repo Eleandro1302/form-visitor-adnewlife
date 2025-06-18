@@ -25,7 +25,6 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
             message += `\nPedido de Oração: ${oracao}`;
         }
 
-        // Enviar dados para o bot do Telegram
         var telegramBotToken = '7576819398:AAFs-48-eZz2cXYz3pUHp6egCvBmhLELVHM';
         var telegramChatId = '1115306987';
         var telegramUrl = `https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${telegramChatId}&text=${encodeURIComponent(message)}`;
@@ -52,5 +51,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
 });
 
 function redirectToInstagram() {
-    window.location.href = 'https://www.instagram.com/ad_newlifechurch_watford?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+    window.location.href = 'https://www.instagram.com/ad_newlifechurch?igsh=MW8wc3Y2NXZlcmVucg==?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
 }
