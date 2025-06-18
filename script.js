@@ -51,5 +51,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
 });
 
 function redirectToInstagram() {
-    window.location.href = 'https://www.instagram.com/ad_newlifechurch?igsh=MW8wc3Y2NXZlcmVucg==?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+    window.location.href = 'https://www.instagram.com/ad_newlifechurch?igsh=MW8wc3Y2NXZlcmVucg==';
 }
